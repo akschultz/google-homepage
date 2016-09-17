@@ -1,0 +1,113 @@
+/* CSS Styles */
+
+/* Clear away any default formatting that would mess up custom styling. */
+#header {
+    position: fixed;
+    z-index: 2;
+    right: 5px;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    margin: 0;
+    height: 100px;
+    float: right;
+}
+
+li {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+#apps {
+	height: 17px;
+	width: 17px;
+}
+
+#logo {
+    width: 269px;
+    margin-top: 145px;
+    margin-bottom: 20px;
+}
+
+#login-button {
+	width: 69px;
+	height: 30px;
+	background-color: #4486F9;
+	color: #FFFFFF;
+	border: none;
+	font-size: 13px;
+	font-weight: bold;
+	border-radius: 0;
+	margin-left: 8px;
+}
+
+#google-logo {
+    width: 269px;
+    margin: auto;
+}
+
+#search-bar {
+    font-size: 15px;
+    padding: 0 0 0 4px; /* Reduces vertical height slightly */
+    margin-bottom: 15px;
+    width: 535px;
+    height: 27px;
+    border: 1px solid #DCDCDC;
+}
+
+#search-bar:focus {
+    border: 1px solid #4285F4;
+}
+
+#search-form {
+    width: 535px;
+    margin: auto;
+}
+
+#buttons {
+    width: 255px;
+    margin: auto;
+}
+
+.button {
+    margin-right: 8px;
+    border: 1px solid #dcdcdc;
+    background: #f5f5f5;
+    padding: 6px 10px;
+    font-weight: bold;
+    border-radius: 2px;
+}
+
+.button:hover {
+        border-color: #c6c6c6;
+        box-shadow: 0 1px 0 rgba(0, 0, 0, .15);
+}
+
+.button:focus {
+    border: 1px solid #4285F4;
+}
+
+#footer {
+    background: #F2F2F2;
+    border-top: 1px solid #E4E4E4;
+    line-height: 10px;
+    min-width: 100%;
+    bottom: 0;
+    position: absolute;
+}
+
+#left {
+    float: left;
+    margin-left: 0;
+}
+
+#right {
+    float: right;
+    margin-right: 20px;
+}
+
+#footer li {
+    color: #666;
+    font-family: arial, sans-serif;
+    font-size: 10pt;
+}
